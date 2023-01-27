@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Icons" transform="translate(2 2)">
+    <g id="Rounded" transform="translate(-2 -2)">
+      <g id="Action">
+        <g id="_-Round-_-Action-_-card_membership" data-name="-Round-/-Action-/-card_membership">
+          <g id="Group_1" data-name="Group 1">
+            <path id="Path" d="M0,0H20V20H0Z" fill="none" fill-rule="evenodd"/>
+            <path id="_Icon-Color" data-name="🔹Icon-Color" d="M16.4,2H3.6A1.594,1.594,0,0,0,2,3.6v8.8A1.594,1.594,0,0,0,3.6,14H6.8v4L10,16.4,13.2,18V14h3.2A1.594,1.594,0,0,0,18,12.4V3.6A1.594,1.594,0,0,0,16.4,2Zm0,10.4H3.6V10.8H16.4Zm0-4H3.6v-4a.8.8,0,0,1,.8-.8H15.6a.8.8,0,0,1,.8.8Z" fill="#fff" fill-rule="evenodd"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

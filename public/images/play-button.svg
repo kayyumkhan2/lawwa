@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="64" height="64" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="play-button" clip-path="url(#clip-path)">
+    <g id="play-button-2" data-name="play-button" transform="translate(0 -0.38)">
+      <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(0.001 0.38)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="32" cy="32" r="32" stroke="none"/>
+        <circle cx="32" cy="32" r="30.5" fill="none"/>
+      </g>
+      <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(0.001 0.38)" fill="none" stroke="#fff" stroke-width="3">
+        <circle cx="32" cy="32" r="32" stroke="none"/>
+        <circle cx="32" cy="32" r="30.5" fill="none"/>
+      </g>
+      <path id="Path_828" data-name="Path 828" d="M157.789,149.335a1.538,1.538,0,0,1-1.538-1.538V126.532a1.538,1.538,0,0,1,2.306-1.332l18.46,10.627a1.537,1.537,0,0,1,0,2.665l-18.46,10.638A1.541,1.541,0,0,1,157.789,149.335Zm1.538-20.143v15.942l13.839-7.976Z" transform="translate(-134.916 -104.709)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

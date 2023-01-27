@@ -1,0 +1,13 @@
+{
+    "name": "Beautician",
+    "alias": "beautician",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Beautician\\Providers\\BeauticianServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

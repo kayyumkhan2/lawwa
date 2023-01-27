@@ -1,0 +1,1246 @@
+/**
+ * Lawwa Responsive CSS
+*/
+@media screen and (max-width:1800px) {
+  .lawwa-team .team-info .about-content {
+    margin-left: 15%;
+  }
+}
+@media screen and (max-width:1715px) {
+  .lawwa-header {
+    padding: 15px 35px;
+  }
+  .lawwa-team .team-info .about-content {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width:1650px) {
+  .lawwa-header {
+    padding: 15px 20px;
+  }
+  .lawwa-navigation ul li {
+    padding-right: 20px;
+  }
+  .lawwa-team .team-info .about-content {
+    margin-left: 6.5%;
+  }
+
+}
+
+@media screen and (max-width:1380px) {
+  .lawwa-navigation ul {
+    font-size: 14px;
+  }
+  .header-btn a {
+    padding: 10px;
+    font-size: 14px;
+  }
+  .lawwa-navigation ul li {
+    padding-right: 15px;
+  }
+
+
+}
+@media screen and (max-width:1300px) {
+  .lawwa-team .team-info .about-content {
+    margin-left: 15px;
+  }
+  .lawwa-team .team-info .img-block {
+    width: 600px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width:1270px) {
+  .container {
+    padding: 0;
+  }
+}
+@media screen and (max-width:1250px) {
+  .services .nav-tabs {
+    padding: 0 50px;
+  }
+  .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    left: 0;
+  }
+  .owl-carousel .owl-nav .owl-next {
+    left: auto;
+    right: 0;
+  }
+  .facilitie-block .owl-carousel .owl-nav .owl-prev, .facilitie-block .owl-carousel .owl-nav .owl-next {
+    left: -50px;
+  }
+  .facilitie-block .owl-carousel .owl-nav .owl-next {
+    left: auto;
+    right: -50px;
+  }
+}
+@media screen and (max-width:1199px) {
+  .bg-colors li {
+    margin: 5px;    
+  }
+  .sub-menu {
+    top: 49px;
+    padding: 0 10px !important;
+  }
+  .sub-menu li {
+    padding-right: 0 !important ;
+  }
+  .sub-menu li a {
+    border-bottom: 0 !important;
+  }
+  .lawwa-navigation ul li a.icon .badge-icon {
+    top: 15px;
+    left: 10px
+  }
+  .cart-detail .order-summary .cart-info {
+    width: 210px; 
+  }
+  .cart-detail .order-summary .table td:nth-child(3) {
+    min-width: 110px;
+  }
+  .tab-content .fixed-textarea .form-control {
+    height: 120px;
+  }
+  .lawwa-toggle {
+    display: inline-block;
+    float: right;
+  }
+  .lawwa-logo img {
+    width: 200px;
+  }
+  .header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    text-align: left;
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: all ease .4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    z-index: 11;
+  }
+  .header-wrap.open {
+    transform: none;
+  }
+  .lawwa-navigation {
+    display: block;
+    padding-top: 20px;
+  }
+  .lawwa-navigation ul {
+    font-size: 16px;
+  }
+  .lawwa-navigation ul li {
+    display: block;
+    padding: 0;
+  }
+  .lawwa-navigation ul li a {
+    display: block;
+    padding: 13px 0;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .lawwa-navigation ul li a:after {
+    display: none;
+  }
+  .header-btn {
+    padding: 30px 0;
+  }
+  .header-btn a {
+    margin: 0 10px 0 0;
+  }
+  .banner-info h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .contact-form {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .inner-link {
+    padding-left: 0;
+  }
+  .services .nav-item .nav-link {
+    font-size: 15px;
+  }
+  .service-wrap .service-item .service-info span {
+    font-size: 18px;
+  }
+  .sidebar-info {
+    padding: 15px 15px 20px;
+  }
+  .sidebar-info li {
+    font-size: 15px;
+  }
+  .sidebar-info li .service-name {
+    max-width: 170px;
+  }
+  .sidebar .lawwa-btn {
+    min-width: 100%;
+  }
+  .right-siderbar .btn-block {
+    padding: 30px 15px;
+  }
+  .form-content {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .dashboard .dashboard-item {
+    padding: 40px 15px;
+  }
+  .left-siderbar .sidebar ul {
+    font-size: 15px;
+  }
+  .my-account-header {
+    padding: 20px 15px 0;
+  }
+  .my-account-header .nav-tabs .nav-link {
+    padding: 10px 5px;
+    font-size: 16px;
+  }
+/*  .manage-form .btn-block .lawwa-btn:last-child {
+    min-width: auto;
+  }*/
+  .payment-opction {
+    padding: 0 0 20px;
+  }
+  .radio-wrap {
+    width: 22px;
+    height: 22px;
+  }
+  .radio-wrap:before {
+    font-size: 14px;
+  }
+  .payment-opction .form-check-label {
+    font-size: 14px;
+  }
+  .dropdown-top.signin-dropdown {
+    right: -100px;
+    top: 110px;
+  }
+  .dropdown-top.signin-dropdown:before, .dropdown-top.signin-dropdown:after {
+    right: 130px;
+  }
+  .dropdown-top.register-dropdown {
+    right: -100px;
+    top: 110px;
+  }
+  .dropdown-top.register-dropdown:before, .dropdown-top.register-dropdown:after {
+    right: auto;
+    left: 30px;
+  }
+  .lawwa-team .team-info .img-block, .lawwa-academy .img-block {
+    width: 450px;
+  }
+  .schedule-service [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .lognin-membership.product-page {
+    padding: 30px 0 70px;
+  }
+  .course-details ul li span.info {
+    float: left;
+  }
+  .ticket-right-content {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .about-info p {
+    padding-bottom: 15px;
+  }
+  .lawwa-about .img-block.video-wrap {
+    margin-top: 0;
+  }
+  .banner-info h2 {
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .banner-info h3 {
+    font-size: 18px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 25px;
+  }
+  .lawwa-about {
+    padding: 70px 0;
+  }
+  .lawwa-member {
+    padding-bottom: 70px;
+  }
+  .about-wrap {
+    padding: 35px 30px 15px;
+  }
+  .lawwa-map iframe {
+    height: 350px;
+  }
+  .footer-link {
+    padding-top: 30px;
+  }
+  .lawwa-contact {
+    padding-bottom: 60px;
+  }
+  .service-wrap .service-item .img-block {
+    height: 230px;
+  }
+  .lawwa-page-title h2 {
+    font-size: 60px;
+  }
+  .left-siderbar .sidebar ul {
+    margin-bottom: 30px;
+  }
+  .payment-opction .form-check-label {
+    padding-left: 35px;
+    text-align: left;
+  }
+  .book-service-form .btn-block {
+    margin-bottom: 30px;
+  }
+  .lognin-membership .btn-block .lawwa-btn {
+    min-width: 280px;
+  }
+  .swiper-slider-block figure .img-block {
+    text-align: center;
+  }
+  .product-detail .swiper-button-next, .product-detail .swiper-button-prev {
+    height: 180px;
+  }
+  .product-block {
+    padding-left: 0;
+  }
+  .recruitment-block {
+    padding: 20px;
+  }
+  .recruitment-block .heading-left {
+    width: 450px;
+  }
+  .recruitment-block .heading-left h2 {
+    font-size: 22px;
+  }
+  .lawwa-team .team-info .img-block, .lawwa-academy .img-block {
+    margin-left: 20px;
+    width: 350px;
+  }
+  .mission-vision .img-block {
+    margin-bottom: 20px;
+  }
+  .lawwa-about-wrap .img-block {
+    padding-bottom: 20px;
+  }
+  .privacy-policy .inner-wrap {
+    padding: 30px;
+  }
+  .reviews-ratings .recive-text {
+    padding: 20px 0;
+  }
+  .course-details .corse-price h4 {
+   font-size: 30px; }
+  .course-details .corse-price .lawwa-btn {
+    min-width: 152px;
+  }
+  .course-details .about-course {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  .course-details {
+    padding-bottom: 20px;
+  }
+  .course-details .corse-price {
+    padding: 15px;
+  }
+  .about-bg img {
+    width: 100%;
+  }
+  .customer-details .btn-block {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .banner-info h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .banner-info h3 {
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+  .lawwa-about {
+    padding: 50px 0;
+  }
+  .lawwa-about:before {
+    top: -90px;
+  }
+  .about-wrap {
+    padding: 25px 25px 10px;
+  }
+  .about-info p {
+    padding-bottom: 10px;
+  }
+  .section-title {
+    margin-bottom: 15px;
+  }
+  .section-title {
+    font-size: 26px;
+  }
+  .lawwa-member {
+    padding-bottom: 50px;
+  }
+  .contact-info {
+    padding: 25px;
+  }
+  .contact-info h2 {
+    padding-bottom: 10px;
+    font-size: 26px;
+  }
+  .contact-info h3 {
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+  .contact-link li {
+    padding-bottom: 25px;
+  }
+  .contact-info .contact-link {
+    padding-top: 15px;
+  }
+  .lawwa-contact p {
+    padding-bottom: 10px;
+  }
+  .contact-link-info p {
+    padding-bottom: 15px;
+  }
+  .contact-form {
+    padding: 25px;
+  }
+  .lawwa-map iframe {
+    height: 280px;
+  }
+  .footer-link h3 {
+    padding: 10px 0 15px;
+    font-size: 22px;
+  }
+  .lawwa-copyright {
+    margin-top: 25px;
+    text-align: center;
+  }
+  .lawwa-copyright p {
+    padding-bottom: 8px;
+  }
+  .contact-link-info p br {
+    display: none;
+  }
+  .lawwa-social {
+    padding: 10px 0 20px;
+  }
+  .lawwa-contact {
+    padding: 45px 0 50px;
+  }
+  .service-wrap .service-item .img-block {
+    height: 150px;
+  }
+  .service-wrap .service-item .service-info span {
+    padding: 15px 10px;
+  }
+  .service-wrap .service-item .service-info span {
+    font-size: 15px;  
+  }
+  .service-wrap.style-two .service-item .service-info h6 {
+    font-size: 14px;
+  }
+  .service-wrap.style-two .service-item .service-info span.price {
+    font-size: 14px;
+  }
+  .dashboard .dashboard-item {
+    padding: 25px 15px;
+  }
+  .lawwa-team {
+    padding: 40px 0;
+  }
+  .lawwa-page-title h2 {
+    font-size: 44px;
+  }
+  .lawwa-page-title {
+    padding: 50px 50px 50px 0;
+  }
+  .dashboard {
+    padding: 40px 0;
+  }
+  .dashboard .dashboard-item p {
+    font-size: 16px;
+  }
+  .my-account-header .nav-tabs {
+    width: 100%;
+    white-space: nowrap;
+    display: block;
+    overflow-x: auto;
+    border-bottom: none;
+  }
+  .my-account-header .nav-tabs .nav-item {
+    display: inline-block;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+  }
+  .manage-form .btn-block .lawwa-btn {
+    margin-bottom: 10px;
+  }
+ /* .form-control {
+    height: 44px;
+    font-size: 14px;
+  }*/
+  .form-group {
+    margin-bottom: 10px;
+  }
+  .tab-content label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .profile-block {
+    padding: 20px 15px;
+  }
+  .personal-form, .manage-form, .change-password {
+    padding: 15px;
+  }
+  .book-service-form .form-control.calendar-icon, .book-service-form .form-control.time-icon {
+    background-size: 20px auto;
+  }
+  .book-service .section-title h3 {
+    font-size: 22px;
+  }
+  .book-service {
+    padding: 40px 0;
+  }
+  .lognin-membership .btn-block .lawwa-btn {
+    min-width: 240px;
+    margin-right: 10px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .lognin-membership.product-page {
+    padding: 30px 0;
+  }
+  .product-listing figure .lawwa-btn {
+    font-size: 18px;
+  }
+  .add-banner {
+    padding: 25px 0;
+  }
+  .product-title-wrap h3 {
+    font-size: 28px;
+  }
+  .product-detail .swiper-button-next, .product-detail .swiper-button-prev {
+    height: 140px;
+  }
+  .product-price h2 {
+    font-size: 32px;
+  }
+  .singal-order .table td .table {
+    margin-bottom: 15px !important;
+  }
+  .membership-wrap [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .lawwa-membership {
+    padding: 40px 0;
+  }
+  .membership-wrap .btn-block.next-btn {
+    padding-top: 15px;
+  }
+  .membership-body .btn-block {
+    padding: 25px;
+  }
+  .recruitment-block .apply-btn {
+    float: none;
+    margin-bottom: 15px;
+  }
+  .recruitment-block .heading-left {
+    width: 100%;
+  }
+  .recruitment-block .heading-left span {
+    font-size: 18px;
+  }
+  .lawwa-team .team-info .img-block, .lawwa-academy .img-block {
+    float: none;
+    width: auto;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .lawwa-team .team-info .about-content {
+    margin-left: 0;
+  }
+  .lawwa-approach {
+    padding: 40px 0;
+  }
+  .mission-vision .row {
+    margin-bottom: 30px;
+  }
+  .mission-vision {
+    padding-bottom: 40px;
+  }
+  .lawwa-about-wrap {
+    padding: 40px 0;
+  }
+  .lawwa-academy, .lawwa-Courses, .facilities {
+    padding: 40px 0;
+  }
+  .facilitie-block .facilitie-item .facilitie-info {
+    padding: 15px;
+  }
+  .facilitie-block {
+    padding: 0;
+  }
+  .facilitie-block .owl-carousel .owl-nav {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .facilitie-block .owl-carousel .owl-nav .owl-prev, .facilitie-block .owl-carousel .owl-nav .owl-next {
+    position: static;
+    transform: none;
+    margin: 0 5px;
+  }
+  .facilitie-block .facilitie-item {
+    width: 100%;
+  }
+  .lawwa-news {
+    padding: 40px 0;
+  }
+  .news-block [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .news-block .news-wrap .news-info {
+    padding: 10px;
+  }
+  .news-wrap .news-info h4 {
+    font-size: 16px;
+  }
+  .photo-block figure figcaption {
+    padding: 15px;
+  }
+  .photo-block figure figcaption h6 {
+    font-size: 16px;
+  }
+  .lawwa-photos {
+    padding: 40px 0;
+  }
+  .photo-block .search-icon img {
+    width: 13px;
+  }
+  .lawwa-video {
+    padding: 40px 0;
+  }
+  .lawwa-video .btn-block, .photo-block .btn-block {
+    padding-top: 0;
+  }
+  .photo-block [class*="col-"], .lawwa-video [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .privacy-policy .inner-wrap h6 {
+    font-size: 18px;
+  }
+  .faq {
+    padding: 40px 0;
+  }
+  .faq .card .card-header .btn-link {
+    padding: 12px 15px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+  .faq .card-header .btn-link.collapsed::before, .faq .card-header .btn-link::before {
+    height: auto;
+    font-size: 22px;
+  }
+  .order-left-info .order-right-info {
+    display: inline-block;
+    padding-left: 0;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .cancel-order {
+    padding-top: 30px;
+  }
+  .cart-detail .detail-block .detail-info ul li span {
+    width: 300px;
+  }
+  .schedule-service .btn-block .lawwa-btn {
+    min-width: 180px;
+  }
+  .right-booking-info {
+    padding-top: 20px;
+  }
+  .reviews-ratings .ratings-wrap h4 {
+    font-size: 16px;
+  }
+  .reviews-ratings .ratings-wrap ul li {
+    font-size: 16px;
+  }
+  .manage-wallet-wrap {
+    padding: 40px 0 0;
+  }
+  .tab-services ul {
+    width: 49%;
+  }
+  .services-two {
+    padding: 35px 0 10px;
+  }
+  .book-service-form {
+    padding: 35px 0 0 0;
+  }
+  .lawwa-footer {
+    padding-top: 35px;
+  }
+  .cart {
+    padding: 35px 0 35px;
+  }
+  .cart-detail {
+    padding: 35px 0 0;
+  }
+  .news-block .news-wrap .img-block {
+    height: 200px;
+  }
+  .my-work-history .table td {
+    padding: 30px .75rem 20px;
+  }
+  .product {
+    padding: 35px 0 35px;
+  }
+  .about-item {
+    padding: 35px 0 0;
+  }
+  .mt-80 {
+    padding-top: 35px;
+  }
+ .default-slider {
+    padding: 0 0 35PX;
+  }
+  .wallet-header .add-money { 
+    padding: 30px 15px 30px;
+  }
+  .wallet-header .table-text.table td {
+    padding-top: 25px;
+  }
+  .my-work-history .wallet-header {
+    padding: 5px 0;
+  }
+  .my-work-history .wallet-header span {
+    top: 110px;
+  }
+  .support-info .captha {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .support-info .btn-block {
+    text-align: center;
+  }
+  .support .support-info {
+    padding: 0 20px 35px;
+  }
+  .lawwa-recruitments {
+    padding: 35px 0;
+  }
+  .recruitments-info ul li {
+    width: 100%;
+  }
+  .recruitments-info h4 {
+    margin-top: 15px;
+  }
+  .left-side-bar .side-bar li a {
+    float: none;
+  }
+  .left-side-bar .side-bar li {
+    padding-bottom: 20px;
+  }
+  .terms {
+    padding: 30px 0;
+  }
+  .terms-block .terms-header .heading-block {
+    padding-left: 20px;
+  }
+  .terms .terms-header .heading-block h2 {
+    font-size: 26px;
+  }
+  .terms .terms-header {
+    padding: 15px;
+  }
+  .about-bg {
+    padding: 35px 30px 35px;
+  }
+
+  .feedback-detail .captha {
+    margin-bottom: 15px;
+  }
+  .star-rating label {
+    font-size: 24px;
+  }
+  .singal-order .order-detail h6 {
+    width: 570px;
+  }
+  .delivery-rating {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .star-rating label {
+    font-size: 24px;
+  }
+  .captcha {
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .lawwa-header {
+    padding: 15px;
+  }
+  .footer-link-wrap li {
+    padding-bottom: 13px;
+  }
+  .service-wrap .service-item {
+    max-width: 360px;
+    margin: 0 auto;
+    display: block;
+  }
+  .service-wrap .service-item .img-block {
+    height: 200px;
+  }
+  .service-wrap [class*="col-"] {
+    margin-bottom: 15px;
+  }
+  .service-wrap [class*="col-"]:last-child {
+    margin-bottom: 0;
+  }
+  .service-wrap {
+    padding: 35px 0;
+  }
+  .service-wrap.style-two [class*="col"] .row [class*="col"] {
+    width: 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .service-wrap.style-two [class*="col"] .row [class*="col"] {
+    margin-bottom: 15px;
+  }
+  .services-two {
+    padding-bottom: 20px;
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 10px;
+  }
+  .form-content {
+    padding: 30px;
+  }
+  .form-title {
+    font-size: 23px;
+  }
+  .tab-content label {
+    font-size: 14px;
+  }
+  .form-title h3 {
+    font-size: 16px;
+  }
+  .form-title .link {
+    font-size: 15px;
+  }
+  .book-service .section-title h3 {
+    font-size: 20px;
+  }
+  .lognin-membership .btn-block .lawwa-btn {
+    min-width: 200px;
+  }
+  .product-listing figure .lawwa-btn {
+    font-size: 16px;
+  }
+  .product-title-wrap h3 {
+    font-size: 26px;
+  }
+  .product-detail .swiper-button-next, .product-detail .swiper-button-prev {
+    height: 130px;
+  }
+  .quantity {
+    margin-bottom: 15px;
+  }
+  .mt-80 {
+    padding-top: 20px;
+  }
+  .signal-review-block {
+    padding: 20px 0;
+  }
+  .author-review strong {
+    font-size: 18px;
+  }
+  .right-header h6 {
+    padding-bottom: 15px;
+  }
+  .right-header {
+    padding: 10px;
+  }
+  .membership-info .membership-header h2 {
+    font-size: 46px;
+  }
+  .membership-info .membership-header {
+    padding: 25px 0;
+  }
+  .membership-tabs {
+    padding: 40px 0;
+  }
+  .recruitment-block .heading-left h2 {
+    font-size: 20px;
+  }
+  .recruitment-block .heading-left span {
+    font-size: 16px;
+  }
+  .privacy-policy .container, .privacy-policy .inner-wrap {
+    padding: 15px;
+  }
+  .privacy-policy .inner-wrap h6 {
+    font-size: 16px;
+  }
+  .order-status {
+    padding: 15px 5px;
+  }
+  .order-status .progressbar li {
+    font-size: 10px;
+  }
+  .cart-detail .detail-block .detail-info ul li span {
+    width: 250px;
+  }
+  .cart-detail .payment-info ul li .custom_radios {
+    font-size: 16px;
+  }
+  .detail-block .detail-header h3 {
+    font-size: 20px;
+  }
+  .favourite-content .img-block {
+    width: 130px;
+    margin-bottom: 15px;
+  }
+  .favourite-content a.heading {
+    font-size: 16px;
+  }
+  .wallet-header .total-balance {
+    border-left: none;
+    padding-left: 20px;
+  }
+  .wallet-header .manage-wallet {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
+  .product-listing figure {
+    text-align: center;
+  }
+  .about-bg {
+    padding: 35px 15px 35px;
+  }
+  .ratings-wrap .form-control {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width:479px) {
+  .star-rating label {
+    font-size: 24px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .lawwa-logo img {
+    width: 160px;
+  }
+  .lawwa-btn {
+    font-size: 18px;
+  }
+  .banner-info h2 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .banner-info h3 {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .lawwa-about {
+    padding: 50px 0 30px;
+  }
+  .about-wrap {
+    padding: 0;
+    box-shadow: none;
+  }
+  .contact-link-info {
+    padding-left: 10px;
+  }
+  .contact-form {
+    padding: 15px;
+  }
+  .contact-info {
+    padding: 0 0 30px;
+    background-color: transparent;
+  }
+  .contact-wrap {
+    margin-top: 15px;
+    border: none;
+  }
+  .contact-info h2 {
+    font-size: 22px;
+  }
+  .footer-link h3 {
+    font-size: 20px;
+  }
+  .header-wrap {
+    width: 300px;
+  }
+  .form-title {
+    font-size: 18px;
+  }
+  .form-content {
+    padding: 30px 15px;
+  }
+  .form-group .form-check {
+    margin-right: 10px;
+  }
+  .form-title h3 {
+    font-size: 15px;
+  }
+  .form-title .link {
+    font-size: 13px;
+    position: relative;
+    top: 6px;
+  }
+  .book-service-opction .form-check:first-child .img-block::after {
+    display: none;
+  }
+  .book-service-opction .form-check-label {
+    width: 132px;
+    height: 132px;
+    line-height: 122px;
+  }
+  .book-service-opction .form-check-label .img-block {
+    width: 128px;
+    height: 128px;
+  }
+  .book-service .lawwa-btn {
+    min-width: 122px;
+  }
+  .dropdown-top {
+    width: 270px;
+    padding: 15px;
+  }
+  .dropdown-top.signin-dropdown {
+    right: -60px;
+  }
+  .dropdown-top.signin-dropdown::before, .dropdown-top.signin-dropdown::after {
+    right: 90px;
+  }
+  .dropdown-top.register-dropdown {
+    right: -60px;
+  }
+  .lognin-membership .btn-block .lawwa-btn {
+    min-width: 150px;
+    font-size: 16px;
+  }
+  .product-title-wrap h3 {
+    font-size: 24px;
+  }
+  .default-slider .owl-nav {
+    position: static;
+    padding-top: 15px;
+    text-align: center;
+  }
+  .default-slider .owl-carousel .owl-nav .owl-prev, .default-slider .owl-carousel .owl-nav .owl-next {
+    margin: 0 5px;
+  }
+  .product-detail .swiper-button-next, .product-detail .swiper-button-prev {
+    height: 124px;
+  }
+
+  .payment-staps ul li a {
+    padding: 14px 10px;
+    font-size: 14px;
+  }
+  .payment-staps ul {
+    margin-bottom: 25px;
+  }
+  .order-info .order-info-header p {
+    float: none;
+    margin-top: 10px;
+  }
+  .body-temp .btn-block {
+    text-align: left;
+  }
+  .body-temp .btn-block .lawwa-btn {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .cart-detail .order-summary .table td:nth-child(2) {
+    min-width: auto;
+  }
+  .cart-detail .detail-block .detail-info ul li span {
+    width: 180px;
+  }
+  .detail-block .detail-header h3 {
+    display: block;
+  }
+  .cart-detail .detail-block .detail-header .lawwa-btn {
+    float: none !important;
+    margin-top: 15px;
+  }
+  .schedule-service .btn-block .lawwa-btn {
+    margin-top: 10px;
+  }
+  .reviews-ratings .ratings-details {
+    padding: 15px;
+  }
+  .reviews-ratings .ratings-details .img-block {
+    float: none;
+    margin: 0;
+  }
+  .beautician-review-header .img-block {
+    float: none;
+    margin-bottom: 10px;
+  }
+  .beautician-review-block .review-header-content {
+    padding-left: 0;
+  }
+  .review-header-content h3 {
+    font-size: 16px;
+  }
+  .tab-services ul {
+    width: 100%;
+  }
+   .course-details ul li span.info {
+    float: none;
+  }
+  .course-details ul li {
+    width: 100%;
+  }
+  .lawwa-about .showcontent {
+    padding-bottom: 10px;
+  }
+  .lawwa-page-title {
+    background-image: none !important;
+    background-color: #001990;
+  }
+  .decor-default {
+    padding: 5px;
+  }
+  .ticket-right-content {
+    padding: 15px;
+  }
+  .ticket-right-content .chat-body .answer-add input {
+    padding: 12px 8px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+  }
+  .ticket-right-content .chat-body .answer-add button {
+    padding: 15px 13px !important;
+    font-size: 14px !important;
+  }
+  .thans-popup {
+    padding: 30px 15px;
+  }
+  .thans-popup .lawwa-btn {
+    font-size: 16px;
+  }
+  .gallery-thumbs .img-block img {
+    height: 60px !important;
+  }
+  .product-detail .img-block img {
+    height: 275px;
+  }
+  .course-details .section-title {
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  .lawwa-page-title.style-two {
+    padding: 20px 0 0;
+  }
+}
+
+@media screen and (max-width:359px) {
+  .banner-info h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .header-wrap {
+    width: 260px;
+  }
+  .payment-opction .form-check-label {
+    padding-left: 30px;
+  }
+  .dropdown-top {
+    width: 230px;
+    padding: 5px;
+  }
+  .dropdown-top.signin-dropdown {
+    right: -17px;
+  }
+  .dropdown-top.signin-dropdown::before, .dropdown-top.signin-dropdown::after {
+    right: 50px;
+  }
+  .dropdown-top.register-dropdown {
+    right: -17px;
+  }
+  .dropdown-top a img {
+    width: 30px;
+  }
+  .lognin-membership .btn-block .lawwa-btn {
+    min-width: 130px;
+  }
+  .payment-staps ul li {
+    padding: 0 1px;
+  }
+  .payment-staps ul li a {
+    font-size: 13px;
+  }
+  .lawwa-footer {
+    padding-top: 40px;
+  }
+  .wallet-header .table-text.table td {
+    padding-top: 20px;
+  }
+  .product [class*="col-"] {
+    margin-top: 20px;
+  }
+  .manage-form .btn-block .lawwa-btn:last-child {
+    min-width: 112px;
+  }
+  .manage-form .btn-block .lawwa-btn {
+    min-width: 112px;
+  }
+  .star-rating label {
+    font-size: 24px;
+  }
+  .ratings-wrap .form-control {
+    width: 100%;
+  }
+  .course-block figure {
+    height: 480px;
+  }
+  .modal-body .btn-group .lawwa-btn {
+    margin-right: 5px;
+    min-width: 85px;
+  }
+  .product-detail .swiper-button-next, .product-detail .swiper-button-prev {
+    height: 124px;
+  }
+  .progress-item {
+    width: 67%; 
+  }
+  .lawwa-member {
+    padding-bottom: 0;
+  }
+  .lawwa-contact {
+    padding: 35px 0 30px;
+  }
+}

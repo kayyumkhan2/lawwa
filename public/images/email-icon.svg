@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316.406" height="362.1" viewBox="0 0 316.406 362.1">
+  <defs>
+    <filter id="Path_1157" x="0" y="211.369" width="316.406" height="150.731" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.671"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon" transform="translate(-16.849)">
+    <path id="Path_1155" data-name="Path 1155" d="M316.074,350.1H34.026a11.948,11.948,0,0,1-11.95-11.95V132.731H328.024V338.15A11.948,11.948,0,0,1,316.074,350.1Z" fill="#2b3990"/>
+    <path id="Path_1156" data-name="Path 1156" d="M175.05,0,22.056,132.727h0L175.05,265.454,328.044,132.727Z" fill="#3c424f"/>
+    <g transform="matrix(1, 0, 0, 1, 16.85, 0)" filter="url(#Path_1157)">
+      <path id="Path_1157-2" data-name="Path 1157" d="M175.05,217.369,25.849,346.825a11.869,11.869,0,0,0,8.177,3.275H316.078a11.876,11.876,0,0,0,8.177-3.275C317.07,340.6,175.05,217.369,175.05,217.369Z" transform="translate(-16.85)" fill="#2b3990"/>
+    </g>
+    <path id="Path_1158" data-name="Path 1158" d="M62.913,30.4V152.6l84.421,73.253,27.716-24.048,27.716,24.048L287.187,152.6V30.4Z" fill="#f0f0f0"/>
+    <rect id="Rectangle_622" data-name="Rectangle 622" width="166.259" height="11.67" transform="translate(91.921 64.807)" fill="#d83968"/>
+    <rect id="Rectangle_623" data-name="Rectangle 623" width="166.259" height="11.67" transform="translate(91.921 103.707)" fill="#d83968"/>
+    <rect id="Rectangle_624" data-name="Rectangle 624" width="75.349" height="11.67" transform="translate(91.921 142.607)" fill="#d83968"/>
+  </g>
+</svg>

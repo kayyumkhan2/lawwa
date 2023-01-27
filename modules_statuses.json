@@ -1,0 +1,6 @@
+{
+    "Admin": true,
+    "Front": true,
+    "Customer": true,
+    "Beautician": true
+}

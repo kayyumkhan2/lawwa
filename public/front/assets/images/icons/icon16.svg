@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.854" height="17.244" viewBox="0 0 20.854 17.244">
+  <g id="wallet" transform="translate(0 -44.308)">
+    <g id="Group_2124" data-name="Group 2124" transform="translate(0 44.308)">
+      <g id="Group_2123" data-name="Group 2123" transform="translate(0 0)">
+        <path id="Path_1141" data-name="Path 1141" d="M15.239,49.922h5.614V47.316a3.011,3.011,0,0,0-3.008-3.008H3.008A3.011,3.011,0,0,0,0,47.316V58.545a3.011,3.011,0,0,0,3.008,3.008H17.846a3.011,3.011,0,0,0,3.008-3.008V55.938H15.239a3.008,3.008,0,1,1,0-6.015Z" transform="translate(0 -44.308)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_2126" data-name="Group 2126" transform="translate(13.434 51.125)">
+      <g id="Group_2125" data-name="Group 2125" transform="translate(0 0)">
+        <path id="Path_1142" data-name="Path 1142" d="M331.651,211.692a1.8,1.8,0,0,0,0,3.609h5.614v-3.609h-5.614Zm.8,2.406h-.8a.6.6,0,1,1,0-1.2h.8a.6.6,0,0,1,0,1.2Z" transform="translate(-329.846 -211.692)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
